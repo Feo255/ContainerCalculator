@@ -9,7 +9,7 @@ client = gspread.authorize(creds)
 async def fetch_sheet_data():
     # Вся работа с gspread — в отдельном потоке
     def get_data():
-        spreadsheet = client.open_by_key('1VMjgQ6JijArovFY6j7SDQ3rk3F3d-Gtg0xyr3veoLoM')
+        spreadsheet = client.open_by_key('xxxxxx')
         worksheet = spreadsheet.worksheet('Лист1')
         data = worksheet.get_all_values()
         return data
