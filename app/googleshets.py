@@ -43,7 +43,7 @@ async def fetch_sheet_data():
 
 async def fetch_sheet_companies(inn):
     def get_data():
-        spreadsheet = client.open_by_key('1VMjgQ6JijArovFY6j7SDQ3rk3F3d-Gtg0xyr3veoLoM')
+        spreadsheet = client.open_by_key('1xxxxxxxxxM')
         worksheet = spreadsheet.worksheet('Лист2')
         data = worksheet.get_all_values()
         return data
@@ -86,7 +86,7 @@ async def fetch_sheet_companies(inn):
 
 async def async_append_rows_to_sheet(api_list):
     def append_rows():
-        sheet_id ='1VMjgQ6JijArovFY6j7SDQ3rk3F3d-Gtg0xyr3veoLoM'
+        sheet_id ='1xxxxxxxxxxxxxxxxxxx'
         worksheet_name = 'Результаты'
         spreadsheet = client.open_by_key(sheet_id)
         worksheet = spreadsheet.worksheet(worksheet_name)
