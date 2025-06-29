@@ -105,6 +105,6 @@ def get_ors_route(start: tuple, end: tuple, api_key: str) -> dict:
 #address = "24-й проезд, 1к1, Владимир"
 #coordinates = geocode_address(address)
 #print(coordinates)
-#api='5b3ce3597851110001cf624851b6bbb750f6431e94dfe06730b82c26'
+#api=''
 #result = find_nearest_exit(coordinates, api)
 #print(result/1000)
